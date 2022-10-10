@@ -1,3 +1,3 @@
 # AltSchool-React-Calculator
 
-[Link to project](https://stackblitz.com/edit/react-p3xkxs)
+[Link to project](https://react-p3xkxs.stackblitz.io)
