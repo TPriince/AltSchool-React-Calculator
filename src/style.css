@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(27, 31, 23);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  padding: 20px;
+  max-width: 280px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 50px auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.display {
+  background-color: white;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  border: 5px inset grey;
+  border-radius: 6px;
+  font-size: xx-large;
+  text-align: right;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.button {
+  width: 25%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  transition: all 1s;
+  font-weight: 700;
+}
+
+.clear {
+  width: 50%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border: 1px solid black;
+}
+
+.op {
+  background-color: blueviolet;
+  color: black;
+}
+
+.equalto {
+  background-color: gold;
+}
