@@ -8,7 +8,11 @@ export default function App() {
   const [num, setNum] = useState("");
 
   function handleClick(e) {
-    setNum(num + e.target.name);
+    if (num.length > 15) {
+      alert("Can't enter more than 15 digits");
+    } else {
+      setNum(num + e.target.name);
+    }
   }
 
   function handleClear() {
